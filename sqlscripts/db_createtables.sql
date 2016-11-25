@@ -82,4 +82,4 @@ CREATE TABLE v_onlinetest (
 CREATE TABLE v_testanswers (
     objectid SERIAL PRIMARY KEY,
     onlinetestoid INTEGER NOT NULL REFERENCES v_onlinetest (objectid),
-    testquestion
+    testquestion);
